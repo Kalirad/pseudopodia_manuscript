@@ -1,8 +1,8 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: /Users/Amfortas/Google Drive/workspace/IPM/locomotion_manuscript/.texpadtmp/locomtion.aux
+The top-level auxiliary file: /Users/Amfortas/Google Drive/workspace/IPM_pseudopodia/.texpadtmp/locomtion.aux
 The style file: ../plos2015.bst
-I found no \citation commands---while reading file /Users/Amfortas/Google Drive/workspace/IPM/locomotion_manuscript/.texpadtmp/locomtion.aux
+I found no \citation commands---while reading file /Users/Amfortas/Google Drive/workspace/IPM_pseudopodia/.texpadtmp/locomtion.aux
 Database file #1: ../refs.bib
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -10,7 +10,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 0 entries,
             3058 wiz_defined-function locations,
-            625 strings with 4478 characters,
+            625 strings with 4458 characters,
 and the built_in function-call counts, 27 in all, are:
 = -- 0
 > -- 0

@@ -75,6 +75,8 @@
 \documentclass[10pt,letterpaper]{article}
 \usepackage[top=0.85in,left=2.75in,footskip=0.75in]{geometry}
 
+\usepackage[version=4]{mhchem}
+
 % amsmath and amssymb packages, useful for mathematical formulas and symbols
 \usepackage{amsmath,amssymb}
 
@@ -272,7 +274,24 @@ Modeling the movement of a single-celled organism is seemingly an insurmountable
 
 \subsection*{The chemical level}
 
-Diffusion, time
+%Diffusion, time
+
+In order to capture the intricacies of a single-celled organism, we divided a cell into $?$ voxels. A voxel is defined as cube with a given volume in which a set of chemical reactions relevant to actin polymerization. We utilize Gillespie's next reaction method to simulate the occurrence of chemical reactions in each voxel (Table \ref{tab1}).
+
+\begin{table}[!ht]
+\begin{adjustwidth}{0in}{0in} % comment out/remove adjustwidth environment if table fits in text column.
+\centering
+\caption{{\bf Reactions in each voxel.}}
+\begin{tabular}{lll}
+& \textbf{Reaction}  &  \textbf{$k$} \\ \hline
+1 & \ce{RAS -> PTEN} &    \\ 
+2 & &   \\
+\end{tabular}
+\label{tab1}
+\end{adjustwidth}
+\end{table}
+
+The main hurdle in utilizing a voxel-based approach to simulate the behavior of a single cell, is the fact the reactions in the Gillespie's algorithm occur randomly, but at the same time the diffusion of products form voxel should affect the neighboring voxels; how can we   
 
 \subsection*{The mechanical level}
 
